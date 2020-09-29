@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { v1 as uuidv1 } from 'uuid';
 
 const SongList = () => {
-    //defining a property of state in useState function!
+    //defining a property of state in useState function
     const [songs, setSongs] = useState([ //data itself and function to change the data
         { title: 'slow down', id: 1 },
         { title: 'hit different', id: 2 },
